@@ -1,2 +1,9 @@
-# CS-255
-Systems analysis and design coursework for the DriverPass project
+# DriverPass System Analysis and Design
+
+The DriverPass project focused on designing a web-based system for a driver training company. The client, DriverPass, wanted to help students prepare for DMV driving tests through online classes, practice tests, and driving lessons. The system also needed to manage customer accounts, training packages, reservations, and student progress. This repository contains the business requirements document from Project One and the system design document from Project Two.
+
+One thing I did well was breaking down the client’s requests into specific requirements and identifying what each user needed to do. I used those requirements to develop UML diagrams showing the system’s structure and behavior. For example, scheduling a lesson required connecting the customer, training package, driver, and car while checking availability. If I revised one area, I would make the performance requirements more measurable. Instead of saying reservation information should update quickly, I would work with the client to define acceptable response times and expected usage so developers and testers have clear targets.
+
+I interpreted the users’ needs by reviewing the interview and connecting their responsibilities to system features. Customers needed to manage lessons and view progress, while staff needed tools to manage reservations, accounts, and reports. Those needs guided the workflows, data relationships, and access permissions in my design. Understanding the users matters because a system can function correctly and still fail to solve the problem they need it to solve.
+
+My approach to software design starts with understanding the problem before choosing technologies or writing code. I break the requirements into smaller parts, model how users and data interact, and check that the design supports the intended behavior. In future projects, I would continue using interviews, UML diagrams, and regular feedback to clarify requirements early. I would also connect requirements to test cases and keep documentation current as the system changes.
